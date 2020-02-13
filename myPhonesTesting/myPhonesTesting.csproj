@@ -49,15 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsDate.cs" />
-    <Compile Include="clsPrice.cs" />
-    <Compile Include="clsShipped.cs" />
-    <Compile Include="clsTime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tstDate.cs" />
-    <Compile Include="tstPrice.cs" />
-    <Compile Include="tstShipped.cs" />
-    <Compile Include="tstTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -62,6 +62,7 @@
     <Compile Include="tstCustomer.cs" />
     <Compile Include="tstDate.cs" />
     <Compile Include="tstOrder.cs" />
+    <Compile Include="tstOrderID.cs" />
     <Compile Include="tstShipped.cs" />
     <Compile Include="tstTime.cs" />
   </ItemGroup>

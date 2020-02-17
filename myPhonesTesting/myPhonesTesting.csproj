@@ -53,18 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsCustomer.cs" />
-    <Compile Include="clsDate.cs" />
-    <Compile Include="clsOrder.cs" />
-    <Compile Include="clsShipped.cs" />
-    <Compile Include="clsTime.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tstCustomer.cs" />
-    <Compile Include="tstDate.cs" />
-    <Compile Include="tstOrder.cs" />
-    <Compile Include="tstOrderID.cs" />
-    <Compile Include="tstShipped.cs" />
-    <Compile Include="tstTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

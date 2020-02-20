@@ -58,9 +58,14 @@
     <Compile Include="clsOrder.cs" />
     <Compile Include="clsShipped.cs" />
     <Compile Include="clsTime.cs" />
+    <Compile Include="OrderTesting.cs" />
+    <Compile Include="OrderTest\Active.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestData.cs" />
+    <Compile Include="TestOrderNoFound.cs" />
     <Compile Include="tstCustomer.cs" />
     <Compile Include="tstDate.cs" />
+    <Compile Include="tstFindMethodOk.cs" />
     <Compile Include="tstOrder.cs" />
     <Compile Include="tstOrderID.cs" />
     <Compile Include="tstShipped.cs" />

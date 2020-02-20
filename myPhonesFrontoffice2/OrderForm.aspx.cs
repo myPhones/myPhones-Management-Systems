@@ -30,9 +30,6 @@ public partial class OrderForm : System.Web.UI.Page
         OrderTest.CustomerID = txtCustomerID.Text;
         OrderTest.StaffID = txtStaffID.Text;
         OrderTest.Price = txtPrice.Text;
-        OrderTest.Date = txtDate.Text;
-        OrderTest.Time = txtTime.Text;
-        OrderTest.Shipped = txtShipped.Text;
         Session["OrderText"] = OrderTest;
         Response.Redirect("OrderFormViewer.aspx");
     }

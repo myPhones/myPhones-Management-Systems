@@ -54,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsStaff.cs" />
+    <Compile Include="FindMethodOK.cs" />
+    <Compile Include="staffFullName.cs" />
+    <Compile Include="staffTest.cs" />
+    <Compile Include="stafftesting.cs" />
     <Compile Include="tstStaff.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -18,8 +18,8 @@
             Staff Full Name
             <asp:TextBox ID="TextBoxStaffFullName" runat="server"></asp:TextBox>
             <br />
-            Staff Phone Number
-            <asp:TextBox ID="TextBoxStaffPhoneNumber" runat="server"></asp:TextBox>
+            Staff Joined
+            <asp:TextBox ID="TextBoxStaffJoined" runat="server"></asp:TextBox>
             <br />
             Staff Address <asp:TextBox ID="TextBoxStaffAddress" runat="server"></asp:TextBox>
             <br />

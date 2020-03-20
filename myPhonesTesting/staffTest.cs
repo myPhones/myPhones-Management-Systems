@@ -1,7 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using myPhonesTesting;
 
-namespace myPhonesTesting
+namespace myPhonesTest
 {
     [TestClass]
     public class staffTest
@@ -10,7 +11,7 @@ namespace myPhonesTesting
         public void staffID()
         {
             clsStaff staffTest = new clsStaff();
-            Int16 TestData = 1;
+            int TestData = 1;
             staffTest.staffId = 1;
             Assert.AreEqual(staffTest.staffId, TestData);
         }
@@ -19,12 +20,12 @@ namespace myPhonesTesting
         public void OrderId()
         {
             clsStaff staffTest = new clsStaff();
-            Int16 TestData = 1;
+            int TestData = 1;
             staffTest.orderId = 1;
             Assert.AreEqual(staffTest.orderId, TestData);
         }
         [TestMethod]
-        public void staffFulName()
+        public void staffFullName()
         {
             clsStaff staffTest = new clsStaff();
             string TestData = "vishal soma";
@@ -71,4 +72,3 @@ namespace myPhonesTesting
 
     }
 }
-

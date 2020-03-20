@@ -4,13 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using myPhonesTesting;
 
 public partial class Default2 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        clsStaff staffTesting = new clsStaff();
-        staffTesting = (clsStaff)Session["staffTesting"];
-        Response.Write(staffTesting.staffFulName);
+        clsStaff staffTest = new clsStaff();
+        staffTest = (clsStaff)Session["staffTest"];
+        Response.Write(staffTest.staffId);
     }
 }

@@ -49,8 +49,20 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsDataConnection.cs" />
     <Compile Include="clsPhones.cs" />
+    <Compile Include="PhoneTesting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestDateAddedFound.cs" />
+    <Compile Include="TestInStockFound.cs" />
+    <Compile Include="TestPhoneColourFound.cs" />
+    <Compile Include="TestPhoneDescriptionFound.cs" />
+    <Compile Include="TestPhoneModelFound.cs" />
+    <Compile Include="TestPhoneNoFound.cs" />
+    <Compile Include="TestPhoneNotFound.cs" />
+    <Compile Include="TestPhoneMakeFound.cs" />
+    <Compile Include="TestPhoneWeightFound.cs" />
+    <Compile Include="TestPriceFound.cs" />
     <Compile Include="tstPhones.cs" />
   </ItemGroup>
   <ItemGroup>

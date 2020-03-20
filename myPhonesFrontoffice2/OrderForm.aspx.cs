@@ -31,6 +31,7 @@ public partial class OrderForm : System.Web.UI.Page
         OrderTest.CustomerID = TextBoxCustomerID.Text;
         OrderTest.StaffID = TextBoxStaffID.Text;
         OrderTest.Price = TextBoxPrice.Text;
+      //  OrderTest.Price = TextBoxPrice.Text;
         Session["OrderText"] = OrderTest;
         Response.Redirect("OrderFormViewer.aspx");
     }

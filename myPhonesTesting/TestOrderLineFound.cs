@@ -4,18 +4,22 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace myPhonesTesting
 {
     [TestClass]
-    public class tstFindMethodOk
+    public class TestOrderLineFound
     {
         [TestMethod]
-        public void FindMethodOk()
+        public void TestMethod1()
         {
             clsOrder OrderTest = new clsOrder();
             Boolean Found = false;
+            Int32 OrderLineID = 1;
             Boolean OK = true;
-            Int32 OrderID = 1;
-            Found = OrderTest.Find(OrderID);
-            Assert.IsTrue(Found);
+            Found = OrderTest.Find(OrderLineID);
+            if (OrderTest.OrderLineID != 1)
+            {
+                OK = false;
+            }
 
+            Assert.IsTrue(OK);
         }
     }
 }

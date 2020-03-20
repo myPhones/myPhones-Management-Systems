@@ -14,6 +14,23 @@ namespace myPhonesTesting
             OrderTest.DateAdded = TestData;
             Assert.AreEqual(OrderTest.DateAdded, TestData);
         }
+        public void OrderID()
+        {
+            clsOrder OrderTest = new clsOrder();
+            Int32 TestData = 1;
+            OrderTest.OrderID = 1;
+            Assert.AreEqual(OrderTest.OrderID, TestData);
+        }
+
+
+        public void OrderLineID()
+        {
+            clsOrder OrderTest = new clsOrder();
+            Int32 TestData = 1;
+            OrderTest.OrderLineID = 1;
+            Assert.AreEqual(OrderTest.OrderLineID, TestData);
+        }
+
 
         [TestMethod]
 
@@ -32,13 +49,7 @@ namespace myPhonesTesting
             Assert.AreEqual(OrderTest.ShippedAdded, TestData);
         }
 
-        public void PriceAddedOrderOK()
-        {
-            clsOrder OrderTest = new clsOrder();
-            Decimal TestData = 1;
-            OrderTest.PriceAdded = TestData;
-            Assert.AreEqual(OrderTest.PriceAdded, TestData);
-        }
+        
     }
 
 }

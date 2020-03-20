@@ -12,5 +12,6 @@ public partial class OrderFormViewer : System.Web.UI.Page
         clsOrder OrderTest = new clsOrder();
         OrderTest = (clsOrder)Session["OrderText"];
         Response.Write(OrderTest.OrderId);
+       
     }
 }

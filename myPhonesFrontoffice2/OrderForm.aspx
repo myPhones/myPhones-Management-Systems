@@ -9,24 +9,30 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Order ID&nbsp;
-            <asp:TextBox ID="TextBoxOrderID" runat="server"></asp:TextBox>
-            <br />
-            OrderLine ID <asp:TextBox ID="TextBoxOrdlineID" runat="server"></asp:TextBox>
-            <br />
-            Customer ID&nbsp;&nbsp;
-            <asp:TextBox ID="TextBoxCustomerID" runat="server"></asp:TextBox>
-            <br />
-            Staff ID<asp:TextBox ID="TextBoxStaffID" runat="server"></asp:TextBox>
-            <br />
-            Price<asp:TextBox ID="TextBoxPrice" runat="server" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
-            <br />
-            Order Date<asp:TextBox ID="TextBoxDate" runat="server"></asp:TextBox>
-            <br />
-            Order Price<asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+            Order ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBoxOrderID" runat="server" Width="125px"></asp:TextBox>
             <br />
             <br />
-            <asp:CheckBox ID="Shipped" runat="server" />
+            OrderLine ID&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBoxOrdlineID" runat="server" Height="16px" Width="125px"></asp:TextBox>
+            <br />
+            <br />
+            Customer ID&nbsp;&nbsp; &nbsp;&nbsp;
+            <asp:TextBox ID="TextBoxCustomerID" runat="server" Width="125px"></asp:TextBox>
+            <br />
+            <br />
+            Staff ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBoxStaffID" runat="server" Width="125px"></asp:TextBox>
+            <br />
+            <br />
+            Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBoxPrice" runat="server" OnTextChanged="TextBox5_TextChanged" Width="125px"></asp:TextBox>
+            <br />
+            <br />
+            Order Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBoxDate" runat="server" Width="125px"></asp:TextBox>
+            <br />
+            <br />
+            Order Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox7" runat="server" Width="125px"></asp:TextBox>
+            <br />
+            <br />
+            <asp:CheckBox ID="Shipped" runat="server" OnCheckedChanged="Shipped_CheckedChanged" />
             <br />
             <br />
             <br />
